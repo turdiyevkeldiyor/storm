@@ -195,8 +195,8 @@ a {
 }
 
 .site-hero__wrapper {
-  /* flex-direction: column;
-  align-items: center; */
+  flex-direction: column;
+  align-items: center;
 }
 
 .site-hero__title {
@@ -227,23 +227,19 @@ a {
 .site-hero__search-input {
   width: 100%;
   padding-left: 165px;
-
   background-color: #F8F8FA;
-  /* background: #000; */
   color: #2F2F2F;
   border: none;
   outline: none;
   border-radius: 10px;
   padding: 23px 28px;
   font-size: 14px;
-  /* position: relative; */
+
 }
 
 .site-hero__btn {
-  /* position: absolute; */
   top: 333px;
   left: 70%;
-  /* margin: 8px 9px; */
   padding: 16px 22px;
   border: none;
   border-radius: 5px;
@@ -340,7 +336,6 @@ a {
 
 .bulim__title-title-2 {
   width: 100%;
-  /* max-width: 128px; */
   font-weight: 500;
   font-size: 30px;
   letter-spacing: -1px;

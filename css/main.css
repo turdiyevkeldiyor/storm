@@ -58,7 +58,8 @@ body {
   height: 100%;
   font-family: var(--fontPrimary);
   font-weight: var(--fontWeight);
-  background-color: #E5E5E5;
+  background-color: #f8f8fa;
+
 }
 
 main {
@@ -106,6 +107,7 @@ a {
 .site-header {
   width: 100%;
   padding: 20px 0;
+  background-color: #ffffff;
 }
 
 .site-header__wrapper {
@@ -148,8 +150,8 @@ a {
 }
 
 .site-header__search>input {
-  background-color: #F8F8FA;
-  color: #2F2F2F;
+  background-color: #f8f8fa;
+  color: #2f2f2f;
   border: none;
   outline: none;
   border-radius: 5px;
@@ -370,7 +372,7 @@ a {
   margin-right: 20px;
 
   color: #000000;
- 
+
 }
 
 .idea__title-item {
@@ -383,4 +385,30 @@ a {
 
 /* ---------- IDEA END ------------ */
 
+/* ---------- ASIDE START ------------ */
+.aside {
+  width: 100%;
+}
+
+.aside_title {
+  width: 100%;
+  max-width: 275px;
+  font-weight: 500;
+  font-size: 30px;
+  height: 40px;
+  letter-spacing: -1px;
+  color: #000000;
+  margin-top: 97px;
+  margin-bottom: 15px;
+
+}
+
+.aside__img {
+  margin-top: 30px;
+  margin-left: -27px;
+
+
+}
+
+/* ---------- ASIDE END ------------ */
 /* ---------- MAIN END ------------ */
